@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg2"
+    >
+
+    <ImageView
+        android:id="@+id/porta0"
+        android:tag="0"
+        android:layout_marginRight="-20dp"
+        android:layout_gravity="center|right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_porta2"
+
+        />
+
+    <ImageView
+        android:id="@+id/porta1"
+        android:layout_width="100dp"
+        android:layout_marginTop="-24dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|top"
+        android:src="@drawable/ic_porta2"
+        android:tag="1"
+
+        />
+
+    <ImageView
+        android:id="@+id/porta2"
+        android:layout_width="100dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|left"
+        android:src="@drawable/ic_porta2"
+        android:tag="2"
+
+        />
+
+    <ImageView
+        android:id="@+id/porta3"
+        android:tag="3"
+
+        android:layout_gravity="center|bottom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_porta2"
+        />
+
+</FrameLayout>
+

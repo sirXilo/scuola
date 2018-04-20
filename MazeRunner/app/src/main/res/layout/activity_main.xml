@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relative"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.mazerunner.MainActivity"
+    android:orientation="vertical"
+
+    >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleY="1.3"
+        android:src="@drawable/bggg"/>
+
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+
+        >
+
+        <Button
+            android:id="@+id/upp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center|top"
+            android:alpha="0"
+            android:onClick="naviga"/>
+        <Button
+            android:id="@+id/right"
+            android:layout_width="70dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|right"
+            android:alpha="0"
+            android:onClick="naviga"/>
+        <Button
+            android:id="@+id/down"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center|bottom"
+            android:alpha="0"
+            android:onClick="naviga"/>
+        <Button
+            android:id="@+id/left"
+            android:layout_width="70dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|left"
+            android:alpha="0"
+            android:onClick="naviga"/>
+
+
+    </FrameLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/titolo2"/>
+    <ImageView
+        android:id="@+id/noob"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/noob"
+        />
+
+
+
+
+</RelativeLayout>
